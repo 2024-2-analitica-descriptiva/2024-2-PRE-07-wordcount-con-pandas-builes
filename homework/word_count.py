@@ -68,7 +68,6 @@ def run_job(input_directory, output_directory):
     dataframe = load_input(input_directory)
     dataframe = clean_text(dataframe)
     dataframe = count_words(dataframe)
-    dataframe = count_words(dataframe)
     print(dataframe)
 
 
